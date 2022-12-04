@@ -40,12 +40,29 @@ section {
 section img {
     border-radius: 1rem;
     width: 100%;
+    cursor: pointer;
+}
+section .imagem{
+    width: 100%;
+    height: 310px;
+    border-radius: 1.3rem;
+    background: var(--Cyan);
+    
+   
+}
+
+section img:hover{
+    opacity: 0.5;
 }
 
 h2 {
     margin: 1.8rem 0 2rem;
     font-weight: 600;
     font-size: 20px;
+    cursor: pointer;
+}
+h2:hover{
+    color: var(--Cyan);
 }
 
 section #text {
@@ -97,6 +114,7 @@ section #text {
 .credit{
     display: flex;
     gap: 5px;
+    cursor: pointer;
 }
 
 .autor img {
@@ -106,6 +124,9 @@ section #text {
 }
 .autor span{
     color: var(--Soft-blue);
+}
+.autor p:hover{
+    color: var(--Cyan);
 }
 
 .autor::after {
